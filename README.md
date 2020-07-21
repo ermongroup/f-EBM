@@ -6,7 +6,7 @@ Lantao Yu, Yang Song, Jiaming Song, Stefano Ermon. Stanford AI Lab.
 
 The 37th International Conference on Machine Learning.
 
-The code for the simple 1-D example can be found here and the code for image generation can be found here.
+The code for the simple 1-D example can be found [here](https://github.com/ermongroup/f-EBM/tree/master/1d-example) and the code for image generation can be found (here)[https://github.com/ermongroup/f-EBM/tree/master/image_generation].
 
 ### References
 

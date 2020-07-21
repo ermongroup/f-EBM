@@ -3,8 +3,7 @@
 Code for [Training Deep Energy-Based Models with f-Divergence Minimization](https://arxiv.org/pdf/2003.03463.pdf).
 
 ## Setup
-
-To install the prerequisites for the project run 
+Install the prerequisites:
 ```
 pip install -r requirements.txt
 mkdir cachedir
@@ -12,7 +11,8 @@ mkdir cachedir
 
 Pretrained models can be downloaded [here](https://drive.google.com/file/d/183zXzbIu_cY6r7eb_aQ3glWxHo9Tc1ML/view?usp=sharing). 
 Unzip them to cachedir (e.g. `cachedir/cifar10_cond_febm_new_jensen_shannon`). Modify the dataset paths in `data.py`.
-The loss function of f-EBM is implemented here. See Appendix E.1 in the paper for discussions on the implementations.
+
+The loss function of f-EBM is implemented [here](https://github.com/ermongroup/f-EBM/blob/master/image_generation/train_febm.py#L730-L739). See Appendix E.1 in the paper for discussions on the implementations.
 
 ## Training and Testing:
 

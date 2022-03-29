@@ -1,5 +1,5 @@
 scipy==0.19.1
-horovod==0.16.0
+horovod==0.24.0
 torch==0.3.1
 scikit_image==0.13.0
 tensorflow==1.12.0
